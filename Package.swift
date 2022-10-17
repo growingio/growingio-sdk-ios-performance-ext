@@ -30,24 +30,12 @@ let package = Package(
             name: "GrowingAPM",
             targets: ["GrowingAPM_Wrapper"]
         ),
-        .library(
-            name: "GrowingAPMCrashMonitor",
-            targets: ["GrowingAPMCrashMonitor_Wrapper"]
-        ),
-        .library(
-            name: "GrowingAPMUIMonitor",
-            targets: ["GrowingAPMUIMonitor_Wrapper"]
-        ),
-        .library(
-            name: "GrowingAPMLaunchMonitor",
-            targets: ["GrowingAPMLaunchMonitor_Wrapper"]
-        ),
     ],
     dependencies: [
         .package(
             name: "GrowingUtils",
             url: "https://github.com/growingio/growingio-sdk-ios-utilities.git",
-            .revision("af1ec1304d71a5a7467616cafa5fad79ca8e01bc")
+            .exact("0.0.1")
         ),
     ],
     targets: [
@@ -57,20 +45,12 @@ let package = Package(
         .target(
             name: "GrowingAPM_Wrapper",
             dependencies: [
-                "GrowingAPMCore",
                 "GrowingAPMCrashMonitor",
                 "GrowingAPMUIMonitor",
-                "GrowingAPMLaunchMonitor"
+                "GrowingAPMLaunchMonitor",
+                .product(name: "GrowingUtilsAutotrackerCore", package: "GrowingUtils"),
             ],
-            path: "SwiftPM-Wrap/GrowingAPM_Wrapper"
-        ),
-        .target(
-            name: "GrowingAPMCrashMonitor_Wrapper",
-            dependencies: [
-                "GrowingAPMCore",
-                "GrowingAPMCrashMonitor"
-            ],
-            path: "SwiftPM-Wrap/GrowingAPMCrashMonitor_Wrapper",
+            path: "Core",
             cxxSettings: [
                 .define("GCC_ENABLE_CPP_EXCEPTIONS", to: "YES"),
             ],
@@ -78,32 +58,6 @@ let package = Package(
                 .linkedLibrary("c++"),
                 .linkedLibrary("z"),
             ]
-        ),
-        .target(
-            name: "GrowingAPMUIMonitor_Wrapper",
-            dependencies: [
-                "GrowingAPMCore",
-                "GrowingAPMUIMonitor"
-            ],
-            path: "SwiftPM-Wrap/GrowingAPMUIMonitor_Wrapper"
-        ),
-        .target(
-            name: "GrowingAPMLaunchMonitor_Wrapper",
-            dependencies: [
-                "GrowingAPMCore",
-                "GrowingAPMLaunchMonitor"
-            ],
-            path: "SwiftPM-Wrap/GrowingAPMLaunchMonitor_Wrapper"
-        ),
-        
-        // MARK: - GrowingAPM Core
-        
-        .target(
-            name: "GrowingAPMCore",
-            dependencies: [
-                .product(name: "GrowingUtilsAutotrackerCore", package: "GrowingUtils"),
-            ],
-            path: "Core"
         ),
         
         // MARK: - GrowingAPM Modules
