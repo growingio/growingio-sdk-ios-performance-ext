@@ -1,6 +1,0 @@
-framework module GrowingAPMLaunchMonitor {
-  umbrella header "GrowingAPMLaunchMonitor.h"
-
-  export *
-  module * { export * }
-}
