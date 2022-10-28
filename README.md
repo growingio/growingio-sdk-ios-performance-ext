@@ -31,12 +31,13 @@ pod 'GrowingAPM/CrashMonitor'
 #import "GrowingAPM.h"
 ```
 
-- 在 main 函数中，添加如下代码 (此操作仅为了尽可能地在 App 运行前 Swizzle，除必要的崩溃日志本地缓存外，不会生成、上报数据)：
+- 在 main 函数中，添加如下代码 (此操作仅为了尽可能地在 App 运行前开启监测，除必要的崩溃日志本地缓存外，不会生成、上报数据)：
 
 ```objc
 int main(int argc, char * argv[]) {
     // GrowingAPM Swizzle
-    [GrowingAPM swizzle:GrowingAPMMonitorsCrash | GrowingAPMMonitorsUserInterface];
+    [GrowingAPM setupMonitors:GrowingAPMMonitorsCrash | GrowingAPMMonitorsUserInterface
+             appDelegateClass:[AppDelegate class]];
     NSString * appDelegateClassName;
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
