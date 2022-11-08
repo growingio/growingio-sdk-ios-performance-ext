@@ -36,8 +36,7 @@ pod 'GrowingAPM/CrashMonitor'
 ```objc
 int main(int argc, char * argv[]) {
     // GrowingAPM Swizzle
-    [GrowingAPM setupMonitors:GrowingAPMMonitorsCrash | GrowingAPMMonitorsUserInterface
-             appDelegateClass:[AppDelegate class]];
+    [GrowingAPM setupMonitors];
     NSString * appDelegateClassName;
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
