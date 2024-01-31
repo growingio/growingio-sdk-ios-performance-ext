@@ -20,6 +20,22 @@
 		<data>
 		JEN+zdD4Ep8act0vYopeEazK3mg=
 		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/GrowingAPMUIMonitor</key>
+		<data>
+		xwr7BbqJ6P/RzI+pb/X+mGpbhEU=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Headers/GrowingAPMUIMonitor.h</key>
+		<data>
+		n3tvtsZKfz1sortKR88M9wXZLyE=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Modules/module.modulemap</key>
+		<data>
+		JEN+zdD4Ep8act0vYopeEazK3mg=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Resources/Info.plist</key>
+		<data>
+		zZsTZe6VkBfdffiKUxxANmODXIw=
+		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/A/GrowingAPMUIMonitor</key>
 		<data>
 		xwr7BbqJ6P/RzI+pb/X+mGpbhEU=
@@ -33,6 +49,22 @@
 		JEN+zdD4Ep8act0vYopeEazK3mg=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		zZsTZe6VkBfdffiKUxxANmODXIw=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/GrowingAPMUIMonitor</key>
+		<data>
+		xwr7BbqJ6P/RzI+pb/X+mGpbhEU=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/Headers/GrowingAPMUIMonitor.h</key>
+		<data>
+		n3tvtsZKfz1sortKR88M9wXZLyE=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/Modules/module.modulemap</key>
+		<data>
+		JEN+zdD4Ep8act0vYopeEazK3mg=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/Resources/Info.plist</key>
 		<data>
 		zZsTZe6VkBfdffiKUxxANmODXIw=
 		</data>
@@ -101,23 +133,47 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/GrowingAPMUIMonitor</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/GrowingAPMUIMonitor</string>
+			<key>hash</key>
+			<data>
+			xwr7BbqJ6P/RzI+pb/X+mGpbhEU=
+			</data>
+			<key>hash2</key>
+			<data>
+			NNKy/j76QQmgHoLVDDRxdDMjQ4Xa7CfJFnUFxwKKK/U=
+			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Headers</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Headers/GrowingAPMUIMonitor.h</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Headers</string>
+			<key>hash</key>
+			<data>
+			n3tvtsZKfz1sortKR88M9wXZLyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			etFqki1gdkqRuxciWYu2tfh0jxIYnDVw/V6DtE4btJY=
+			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Modules</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Modules</string>
+			<key>hash</key>
+			<data>
+			JEN+zdD4Ep8act0vYopeEazK3mg=
+			</data>
+			<key>hash2</key>
+			<data>
+			N1+goWQ8lC3VyeB5ijDJ10iMmiIqwVGAUU01tjWs9q4=
+			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Resources</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Resources/Info.plist</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Resources</string>
+			<key>hash</key>
+			<data>
+			zZsTZe6VkBfdffiKUxxANmODXIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			hXoG2ly9ELvMgS3fKEsKVvi8iN4RoDBAwRwJijG/sy0=
+			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/A/GrowingAPMUIMonitor</key>
 		<dict>
@@ -163,10 +219,49 @@
 			hXoG2ly9ELvMgS3fKEsKVvi8iN4RoDBAwRwJijG/sy0=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/GrowingAPMUIMonitor</key>
 		<dict>
-			<key>symlink</key>
-			<string>A</string>
+			<key>hash</key>
+			<data>
+			xwr7BbqJ6P/RzI+pb/X+mGpbhEU=
+			</data>
+			<key>hash2</key>
+			<data>
+			NNKy/j76QQmgHoLVDDRxdDMjQ4Xa7CfJFnUFxwKKK/U=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/Headers/GrowingAPMUIMonitor.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			n3tvtsZKfz1sortKR88M9wXZLyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			etFqki1gdkqRuxciWYu2tfh0jxIYnDVw/V6DtE4btJY=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JEN+zdD4Ep8act0vYopeEazK3mg=
+			</data>
+			<key>hash2</key>
+			<data>
+			N1+goWQ8lC3VyeB5ijDJ10iMmiIqwVGAUU01tjWs9q4=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMUIMonitor.framework/Versions/Current/Resources/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zZsTZe6VkBfdffiKUxxANmODXIw=
+			</data>
+			<key>hash2</key>
+			<data>
+			hXoG2ly9ELvMgS3fKEsKVvi8iN4RoDBAwRwJijG/sy0=
+			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GrowingAPMUIMonitor.framework/GrowingAPMUIMonitor</key>
 		<dict>

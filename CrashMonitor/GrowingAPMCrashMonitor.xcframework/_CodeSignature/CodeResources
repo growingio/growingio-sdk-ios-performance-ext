@@ -20,6 +20,22 @@
 		<data>
 		RwWnIaW6dTzvTlRG5AUr/wPoyjQ=
 		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/GrowingAPMCrashMonitor</key>
+		<data>
+		ePhYar+pWOzmfn68IulGx0dX4iM=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Headers/GrowingAPMCrashMonitor.h</key>
+		<data>
+		2af6r7JkXtyazj0+KHtcB9xxRMM=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Modules/module.modulemap</key>
+		<data>
+		RwWnIaW6dTzvTlRG5AUr/wPoyjQ=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Resources/Info.plist</key>
+		<data>
+		eFXePolOxL6UaRpcty2DKsRPrN4=
+		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/A/GrowingAPMCrashMonitor</key>
 		<data>
 		ePhYar+pWOzmfn68IulGx0dX4iM=
@@ -33,6 +49,22 @@
 		RwWnIaW6dTzvTlRG5AUr/wPoyjQ=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/A/Resources/Info.plist</key>
+		<data>
+		eFXePolOxL6UaRpcty2DKsRPrN4=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/GrowingAPMCrashMonitor</key>
+		<data>
+		ePhYar+pWOzmfn68IulGx0dX4iM=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/Headers/GrowingAPMCrashMonitor.h</key>
+		<data>
+		2af6r7JkXtyazj0+KHtcB9xxRMM=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/Modules/module.modulemap</key>
+		<data>
+		RwWnIaW6dTzvTlRG5AUr/wPoyjQ=
+		</data>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/Resources/Info.plist</key>
 		<data>
 		eFXePolOxL6UaRpcty2DKsRPrN4=
 		</data>
@@ -101,23 +133,47 @@
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/GrowingAPMCrashMonitor</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/GrowingAPMCrashMonitor</string>
+			<key>hash</key>
+			<data>
+			ePhYar+pWOzmfn68IulGx0dX4iM=
+			</data>
+			<key>hash2</key>
+			<data>
+			G257I/VKg8xr99a9ZSXf75xmJfRlqfzPzPzVG0yzzaQ=
+			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Headers</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Headers/GrowingAPMCrashMonitor.h</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Headers</string>
+			<key>hash</key>
+			<data>
+			2af6r7JkXtyazj0+KHtcB9xxRMM=
+			</data>
+			<key>hash2</key>
+			<data>
+			hXZ9ubZmIXSAYVcljfo0wJMpUZQ4A0uHQ3ckiqAo2Fw=
+			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Modules</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Modules</string>
+			<key>hash</key>
+			<data>
+			RwWnIaW6dTzvTlRG5AUr/wPoyjQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			V4AyPk2Ax5/+PpbYGvcERBtEfETnbRh58VTV/OCBVko=
+			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Resources</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Resources/Info.plist</key>
 		<dict>
-			<key>symlink</key>
-			<string>Versions/Current/Resources</string>
+			<key>hash</key>
+			<data>
+			eFXePolOxL6UaRpcty2DKsRPrN4=
+			</data>
+			<key>hash2</key>
+			<data>
+			a0YpRVxp1skNdvH9uDYJR5rq00GjclvJ/pRZEKzuv8U=
+			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/A/GrowingAPMCrashMonitor</key>
 		<dict>
@@ -163,10 +219,49 @@
 			a0YpRVxp1skNdvH9uDYJR5rq00GjclvJ/pRZEKzuv8U=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current</key>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/GrowingAPMCrashMonitor</key>
 		<dict>
-			<key>symlink</key>
-			<string>A</string>
+			<key>hash</key>
+			<data>
+			ePhYar+pWOzmfn68IulGx0dX4iM=
+			</data>
+			<key>hash2</key>
+			<data>
+			G257I/VKg8xr99a9ZSXf75xmJfRlqfzPzPzVG0yzzaQ=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/Headers/GrowingAPMCrashMonitor.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2af6r7JkXtyazj0+KHtcB9xxRMM=
+			</data>
+			<key>hash2</key>
+			<data>
+			hXZ9ubZmIXSAYVcljfo0wJMpUZQ4A0uHQ3ckiqAo2Fw=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RwWnIaW6dTzvTlRG5AUr/wPoyjQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			V4AyPk2Ax5/+PpbYGvcERBtEfETnbRh58VTV/OCBVko=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-maccatalyst/GrowingAPMCrashMonitor.framework/Versions/Current/Resources/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eFXePolOxL6UaRpcty2DKsRPrN4=
+			</data>
+			<key>hash2</key>
+			<data>
+			a0YpRVxp1skNdvH9uDYJR5rq00GjclvJ/pRZEKzuv8U=
+			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GrowingAPMCrashMonitor.framework/GrowingAPMCrashMonitor</key>
 		<dict>
