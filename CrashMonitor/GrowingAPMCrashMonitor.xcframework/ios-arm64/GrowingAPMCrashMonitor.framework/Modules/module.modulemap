@@ -1,6 +1,6 @@
 framework module GrowingAPMCrashMonitor {
   umbrella header "GrowingAPMCrashMonitor.h"
-
   export *
+
   module * { export * }
 }

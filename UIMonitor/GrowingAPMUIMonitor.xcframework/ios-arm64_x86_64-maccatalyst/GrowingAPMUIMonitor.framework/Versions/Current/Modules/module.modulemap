@@ -1,6 +1,6 @@
 framework module GrowingAPMUIMonitor {
   umbrella header "GrowingAPMUIMonitor.h"
-
   export *
+
   module * { export * }
 }
